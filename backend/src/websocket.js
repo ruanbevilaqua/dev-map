@@ -22,7 +22,7 @@ exports.setupWebSocket = (server) => {
 };
 
 exports.findConnections = (coordinates, techs) => {
-    console.log(connections);
+    // console.log(connections);
     // if(connections.length = 0){
     //     console.log('Nenhuma conexão encontrada');
     // }
