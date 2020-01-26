@@ -12,6 +12,14 @@ import DevForm from './components/DevForm';
 import DevList from './components/DevList'; 
 import { MapContainer } from './components/MapContainer'; 
 
+/**
+ * Conceitos!
+ * 
+ * Componente: função que retorna algum HTML, CSS ou JS
+ * Estado: informações mantidads pelo componente (imutabilidade)
+ * Propriedade: atributos
+ */
+
 function App() {
   const [devs, setDevs] = useState([]);
 
