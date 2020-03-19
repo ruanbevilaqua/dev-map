@@ -10,6 +10,7 @@ const server = http.Server(app);
 
 setupWebSocket(server);
 
+/*The connection with mongo database is set to mongodb.net server. You can use this user but there is no guarantee that it's will work forever because it's a free account */
 mongoose.connect('mongodb+srv://omnistack:omnistack@omnistack-dl6hs.mongodb.net/week10?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
