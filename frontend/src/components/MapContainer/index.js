@@ -89,5 +89,5 @@ export class MapContainer extends Component {
 }
 
 MapContainer = GoogleApiWrapper({
-  apiKey: ('AIzaSyCZGtwwctuQozXEAna8IYdC-X9Y3XF_Oow')
+  apiKey: ('AIzaSyCZGtwwctuQozXEAna8IYdC-X9Y3XF_Oow') /*put your Google Cloud API Key to use the Google Maps on the front end for WEB.*/
 })(MapContainer)
